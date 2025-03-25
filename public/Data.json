@@ -1,0 +1,291 @@
+[
+    {
+        "productId": 1,
+        "product_title": "Samsung Galaxy S23 Ultra",
+        "product_image": "https://i.ibb.co.com/gM9YxWBq/Samsung-Galaxy-S23-Ultra-featured-image-packshot-review.jpg",
+        "category": "Smartphone",
+        "price": 1199.99,
+        "description": "Samsung's flagship smartphone with a 200MP camera and S Pen.",
+        "specification": [
+            "6.8-inch AMOLED Display",
+            "Snapdragon 8 Gen 2 Processor",
+            "12GB RAM",
+            "256GB Storage",
+            "5000mAh Battery"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "productId": 2,
+        "product_title": "iPhone 14 Pro Max",
+        "product_image": "https://i.ibb.co.com/tT1j2SVn/Apple-i-Phone-14-Pro-FINAL-featured-image-packshot-review-1.jpg",
+        "category": "Smartphone",
+        "price": 1299.99,
+        "description": "Apple's top-tier iPhone with a dynamic island and A16 Bionic chip.",
+        "specification": [
+            "6.7-inch Super Retina XDR Display",
+            "A16 Bionic Processor",
+            "6GB RAM",
+            "256GB Storage",
+            "4323mAh Battery"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "productId": 3,
+        "product_title": "Google Pixel 7 Pro",
+        "product_image": "https://i.ibb.co.com/hJmfsdFr/Google-Pixel-7-Pro.jpg",
+        "category": "Smartphone",
+        "price": 899.99,
+        "description": "Google's best smartphone with AI-powered camera features.",
+        "specification": [
+            "6.7-inch OLED Display",
+            "Google Tensor G2 Processor",
+            "12GB RAM",
+            "128GB Storage",
+            "5000mAh Battery"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "productId": 4,
+        "product_title": "OnePlus 11",
+        "product_image": "https://i.ibb.co.com/0RsSGmfP/One-Plus-11-featured-image-packshot-review-Recovered.jpg",
+        "category": "Smartphone",
+        "price": 799.99,
+        "description": "A flagship killer with a Hasselblad camera and fast charging.",
+        "specification": [
+            "6.7-inch AMOLED Display",
+            "Snapdragon 8 Gen 2 Processor",
+            "16GB RAM",
+            "256GB Storage",
+            "5000mAh Battery"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "productId": 5,
+        "product_title": "Xiaomi 13 Pro",
+        "product_image": "https://i.ibb.co.com/SXXPBB5r/Asus-ROG-Phone-7-W-featured-image-packshot-review.jpg",
+        "category": "Smartphone",
+        "price": 999.99,
+        "description": "Xiaomi's flagship with a 1-inch sensor for superior photography.",
+        "specification": [
+            "6.73-inch OLED Display",
+            "Snapdragon 8 Gen 2 Processor",
+            "12GB RAM",
+            "256GB Storage",
+            "4820mAh Battery"
+        ],
+        "availability": false,
+        "rating": 4.5
+    },
+    {
+        "productId": 6,
+        "product_title": "Asus ROG Phone 7",
+        "product_image": "https://i.ibb.co.com/SXXPBB5r/Asus-ROG-Phone-7-W-featured-image-packshot-review.jpg",
+        "category": "Gaming Smartphone",
+        "price": 1099.99,
+        "description": "A gaming beast with RGB lighting and extreme cooling system.",
+        "specification": [
+            "6.8-inch AMOLED Display",
+            "Snapdragon 8 Gen 2 Processor",
+            "16GB RAM",
+            "512GB Storage",
+            "6000mAh Battery"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "productId": 7,
+        "product_title": "Realme GT 3",
+        "product_image": "https://i.ibb.co.com/yFx85tzb/Realme-GT-Neo-3-featured-image-packshot-review-Recovered.jpg",
+        "category": "Smartphone",
+        "price": 699.99,
+        "description": "Realme's latest offering with 240W fast charging technology.",
+        "specification": [
+            "6.74-inch OLED Display",
+            "Snapdragon 8+ Gen 1 Processor",
+            "12GB RAM",
+            "256GB Storage",
+            "4600mAh Battery"
+        ],
+        "availability": true,
+        "rating": 4.4
+    },
+    {
+        "productId": 8,
+        "product_title": "Sony Xperia 1 IV",
+        "product_image": "https://i.ibb.co.com/C44NZkt/featured-image-packshot-review-1.jpg",
+        "category": "Smartphone",
+        "price": 1399.99,
+        "description": "Sony's flagship with 4K display and professional-grade camera.",
+        "specification": [
+            "6.5-inch 4K OLED Display",
+            "Snapdragon 8 Gen 1 Processor",
+            "12GB RAM",
+            "256GB Storage",
+            "5000mAh Battery"
+        ],
+        "availability": false,
+        "rating": 4.6
+    },
+    {
+        "productId": 9,
+        "product_title": "Motorola Edge 30 Ultra",
+        "product_image": "https://i.ibb.co.com/3y8B7scK/Motorola-Edge-30-Pro-featured-image-packshot-review-Recovered-Recovered.jpg",
+        "category": "Smartphone",
+        "price": 899.99,
+        "description": "Motorola's high-end phone with a 200MP primary camera.",
+        "specification": [
+            "6.67-inch OLED Display",
+            "Snapdragon 8+ Gen 1 Processor",
+            "12GB RAM",
+            "256GB Storage",
+            "4610mAh Battery"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "productId": 10,
+        "product_title": "Nothing Phone 2",
+        "product_image": "https://i.ibb.co.com/vC3c79G2/Nothing-Phone-2-featured-image-packshot-review.jpg",
+        "category": "Smartphone",
+        "price": 749.99,
+        "description": "A unique transparent-backed smartphone with Glyph interface.",
+        "specification": [
+            "6.7-inch AMOLED Display",
+            "Snapdragon 8+ Gen 1 Processor",
+            "12GB RAM",
+            "256GB Storage",
+            "4700mAh Battery"
+        ],
+        "availability": true,
+        "rating": 4.3
+    },
+    {
+        "productId": 11,
+        "product_title": "MacBook Pro 16 M2",
+        "product_image": "https://i.ibb.co.com/v6fbgbQf/mac.jpg",
+        "category": "Laptop",
+        "price": 2499.99,
+        "description": "Apple's powerful MacBook with M2 Max chip and Liquid Retina XDR display.",
+        "specification": [
+            "16.2-inch Liquid Retina XDR Display",
+            "Apple M2 Max Processor",
+            "32GB RAM",
+            "1TB SSD Storage",
+            "100Wh Battery"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "productId": 12,
+        "product_title": "Dell XPS 15",
+        "product_image": "https://i.ibb.co.com/ZptsDDtP/Dell.jpg",
+        "category": "Laptop",
+        "price": 1899.99,
+        "description": "Premium Windows ultrabook with 4K OLED display and Intel 13th Gen processor.",
+        "specification": [
+            "15.6-inch 4K OLED Display",
+            "Intel Core i9-13900H Processor",
+            "32GB RAM",
+            "1TB SSD Storage",
+            "86Wh Battery"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "productId": 13,
+        "product_title": "ASUS ROG Zephyrus G14",
+        "product_image": "https://i.ibb.co.com/G4CHn0Cv/ASUS-ROG-Zephyrus-G14.jpg",
+        "category": "Laptop",
+        "price": 1599.99,
+        "description": "A powerful gaming laptop with AMD Ryzen 9 and RTX 4070 GPU.",
+        "specification": [
+            "14-inch QHD 165Hz Display",
+            "AMD Ryzen 9 7940HS Processor",
+            "32GB RAM",
+            "1TB SSD Storage",
+            "76Wh Battery"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "productId": 14,
+        "product_title": "Apple Watch Series 9",
+        "product_image": "https://i.ibb.co.com/F49q5Y8y/Apple-Watch-Series-9.jpg",
+        "category": "Smartwatch",
+        "price": 429.99,
+        "description": "Apple's latest smartwatch with Always-On Retina display and advanced health tracking.",
+        "specification": [
+            "1.9-inch Retina Display",
+            "S9 Processor",
+            "GPS & Cellular",
+            "18-hour Battery Life",
+            "Water Resistant 50m"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "productId": 15,
+        "product_title": "Samsung Galaxy Watch 6",
+        "product_image": "https://i.ibb.co.com/DHgVhxCZ/Samsung-Galaxy-Watch-6.jpg",
+        "category": "Smartwatch",
+        "price": 349.99,
+        "description": "Samsung's advanced smartwatch with Wear OS and ECG monitoring.",
+        "specification": [
+            "1.5-inch Super AMOLED Display",
+            "Exynos W930 Processor",
+            "Bluetooth & LTE",
+            "40-hour Battery Life",
+            "IP68 Water Resistance"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "productId": 16,
+        "product_title": "Anker PowerCore 26800",
+        "product_image": "https://i.ibb.co.com/fGxYs8vM/Anker-Power-Core-26800.jpg",
+        "category": "Power Bank",
+        "price": 69.99,
+        "description": "Massive capacity power bank with dual USB ports for fast charging.",
+        "specification": [
+            "26800mAh Capacity",
+            "Dual USB Output",
+            "18W Fast Charging",
+            "Recharge Time: 6 Hours",
+            "Weight: 500g"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "productId": 17,
+        "product_title": "Xiaomi Mi Power Bank 3 Pro",
+        "product_image": "https://i.ibb.co.com/35V5yJ9F/Xiaomi-Mi-Power-Bank-3-Pro.jpg",
+        "category": "Power Bank",
+        "price": 59.99,
+        "description": "High-capacity power bank with 45W fast charging and USB-C support.",
+        "specification": [
+            "20000mAh Capacity",
+            "USB-C & USB-A Ports",
+            "45W Fast Charging",
+            "Recharge Time: 4.5 Hours",
+            "Weight: 450g"
+        ],
+        "availability": true,
+        "rating": 4.7
+    }
+]

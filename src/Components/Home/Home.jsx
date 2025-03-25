@@ -1,5 +1,6 @@
 
 import React from 'react';
+import Baneer from '../Banner/Baneer';
 
 
 
@@ -8,6 +9,7 @@ const Home = () => {
         <div>
 
             <h2>this are from home</h2>
+            <Baneer></Baneer>
 
 
 

@@ -8,17 +8,19 @@ import Navbar from './Components/Navbar/Navbar.jsx'
 import Footer from './Components/Footer/Footer.jsx'
 import Error from './Components/Error/Error.jsx'
 import Body from './Components/Body/Body.jsx'
+import Statistics from './Components/Statistics/Statistics.jsx'
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Body></Body>,
-    errorElement: <Error></Error>,
+
     children: [
 
       {
         path: '/',
-        element: <Home></Home>
+        element: <Home></Home>,
+        errorElement: <Error></Error>,
       },
       {
         path: '/Navbar',
@@ -27,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: '/Footer',
         element: <Footer></Footer>
+      },
+      {
+        path: '/Statistics',
+        element: <Statistics></Statistics>
       }
     ]
 

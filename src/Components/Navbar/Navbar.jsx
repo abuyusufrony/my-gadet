@@ -6,11 +6,15 @@ const Navbar = () => {
     const links = <>
 
         <div className='mr-4'>
-            <NavLink> Buy</NavLink>
+            <NavLink>Home  </NavLink>
+        </div>
+        <div className='mr-4'>
+            <NavLink to='/Statistics'>Statistics</NavLink>
         </div>
         <div>
-            <NavLink>items </NavLink>
+            <NavLink >Dashboard</NavLink>
         </div>
+
 
 
 
