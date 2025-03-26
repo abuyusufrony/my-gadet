@@ -9,6 +9,7 @@ import Footer from './Components/Footer/Footer.jsx'
 import Error from './Components/Error/Error.jsx'
 import Body from './Components/Body/Body.jsx'
 import Statistics from './Components/Statistics/Statistics.jsx'
+import Gagets from './Components/Gadgets/Gagets.jsx'
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,11 @@ const router = createBrowserRouter([
         path: '/',
         element: <Home></Home>,
         errorElement: <Error></Error>,
+      },
+      {
+        path: '/Gadgets',
+        element: <Gagets></Gagets>
+
       },
       {
         path: '/Navbar',
