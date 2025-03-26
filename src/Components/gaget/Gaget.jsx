@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const Gaget = ({ gagetlist }) => {
-    const { product_image, product_title, price } = gagetlist
+    const { product_image, product_title, price, productId } = gagetlist
 
     return (
         <div>
@@ -17,14 +18,16 @@ const Gaget = ({ gagetlist }) => {
                     <div className="card-body">
                         <h2 className="card-title">{product_title}</h2>
                         <p>Price: {price}$</p>
-                        <div className="card-actions ">
-                            <button className="text-[#9538E2] border-2 rounded-2xl p-1.5 font-bold cursor-pointer hover:">More Details</button>
-                        </div>
+                        <Link to={`/Gaget/${productId}`}>
+                            <div className="card-actions ">
+                                <button className="text-[#9538E2] border-2 rounded-2xl p-1.5 font-bold cursor-pointer hover:">More Details</button>
+                            </div>
+                        </Link>
                     </div>
                 </div>
 
             </div>
-        </div>
+        </div >
     );
 };
 
