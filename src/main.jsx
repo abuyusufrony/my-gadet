@@ -11,6 +11,7 @@ import Body from './Components/Body/Body.jsx'
 import Statistics from './Components/Statistics/Statistics.jsx'
 import Gagets from './Components/Gadgets/Gagets.jsx'
 import Gagetdetails from './Components/gagetdetails/Gagetdetails.jsx'
+import Dashbord from './Components/Dashbord/Dashbord.jsx'
 
 const router = createBrowserRouter([
   {
@@ -46,7 +47,12 @@ const router = createBrowserRouter([
       {
         path: '/Statistics',
         element: <Statistics></Statistics>
+      },
+      {
+        path: '/Dashbord',
+        element: <Dashbord></Dashbord>
       }
+
     ]
 
   }
