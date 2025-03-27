@@ -5,9 +5,14 @@ import Gaget from '../gaget/Gaget';
 
 const Dashbord = () => {
 
+
+
     const allpro = useLoaderData()
     console.log(allpro)
     const [product, setProduct] = useState([])
+
+    const totalProducts = product.length;
+    const totalPrice = product.reduce((sum, item) => sum + item.price, 0);
 
 
     useEffect(() => {
@@ -48,6 +53,11 @@ const Dashbord = () => {
                     <h2 className='text-xl font-bold text-center bg-slate-100 '>Dashborad List are : </h2>
 
                     <button onClick={() => { sorthandle('price') }} className="btn">Sort by price</button>
+                    <div className="bg-white p-2 rounded-lg shadow">
+                        <span className="font-bold ">
+                            Total: {totalProducts} items (${totalPrice.toFixed(2)})
+                        </span>
+                    </div>
 
                 </div>
                 <ul>
@@ -62,9 +72,12 @@ const Dashbord = () => {
                 </div>
 
             </div>
+
+
         </div>
 
     );
 };
 
 export default Dashbord;
+
