@@ -1,17 +1,35 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router';
 import { setItem } from '../../script/Local';
+import Gaget from '../gaget/Gaget';
 
 const Dashbord = () => {
 
     const allpro = useLoaderData()
+    console.log(allpro)
+    const [product, setProduct] = useState([])
+
 
     useEffect(() => {
+        const stringObject = setItem()
+        const stringObjectInt = stringObject.map(s => parseInt(s))
+        const addString = allpro.filter(a => stringObjectInt.includes(a.productId))
+
+        setProduct(addString)
 
     }, [])
+
+    const sorthandle = (sr) => {
+
+        if (sr) {
+            const sortList = [...product].sort((a, b) => a.price - b.price)
+            setProduct(sortList)
+
+        }
+    }
     return (
         <div>
-            <h2>this arte dashbord</h2>
+
             <div>
 
                 <div className='bg-[#9538E2] h-[250px] rounded'>
@@ -24,7 +42,24 @@ const Dashbord = () => {
 
 
                 </div>
-                <h2>cart books are</h2>
+
+                <progress className="progress w-full"></progress>
+                <div className=' flex justify-between'>
+                    <h2 className='text-xl font-bold text-center bg-slate-100 '>Dashborad List are : </h2>
+
+                    <button onClick={() => { sorthandle('price') }} className="btn">Sort by price</button>
+
+                </div>
+                <ul>
+                    {
+                        product.map(p => <Gaget gagetlist={p}></Gaget>)
+                    }
+                </ul>
+
+                <div className="join grid grid-cols-2">
+                    <button className="join-item btn btn-outline">Previous page</button>
+                    <button className="join-item btn btn-outline">Next</button>
+                </div>
 
             </div>
         </div>

@@ -1,3 +1,5 @@
+import { toast } from "react-toastify";
+
 const setItem = () => {
     const setvalue = localStorage.getItem('product-list')
     if (setvalue) {
@@ -11,13 +13,14 @@ const setItem = () => {
 const getItem = (id) => {
     const runitem = setItem()
     if (runitem.includes(id)) {
-        console.log("allready are Taken")
+        toast("alleady added")
 
     }
     else {
         runitem.push(id)
         const setlo = JSON.stringify(runitem)
         localStorage.setItem('product-list', setlo)
+        toast("product are added in dashborad")
     }
 }
 export { getItem, setItem }
