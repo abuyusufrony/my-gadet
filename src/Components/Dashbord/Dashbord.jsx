@@ -1,6 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useLoaderData } from 'react-router';
+import { setItem } from '../../script/Local';
 
 const Dashbord = () => {
+
+    const allpro = useLoaderData()
+
+    useEffect(() => {
+
+    }, [])
     return (
         <div>
             <h2>this arte dashbord</h2>
@@ -13,7 +21,10 @@ const Dashbord = () => {
                         <div>  <button className="btn mt-1.5 bg-gray-200 rounded-2xl text-[#9538E2]">Phones</button></div>
                     </div>
 
+
+
                 </div>
+                <h2>cart books are</h2>
 
             </div>
         </div>

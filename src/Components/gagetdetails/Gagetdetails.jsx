@@ -1,6 +1,7 @@
 
 import { useLoaderData, useParams } from 'react-router';
 import back from '../../assets/banner.jpg'
+import { getItem } from '../../script/Local';
 
 const Gagetdetails = () => {
 
@@ -16,7 +17,10 @@ const Gagetdetails = () => {
     console.log(totalP)
     const { product_image, category, product_title, specification, price, availability, description, rating } = totalP;
 
+    const handleadd = (id) => {
 
+        getItem(id)
+    }
 
 
 
@@ -63,7 +67,7 @@ const Gagetdetails = () => {
                                         </div>
                                     </div>
                                 </p>
-                                <button className="btn btn-primary rounded-2xl ">Add To cart</button>
+                                <button onClick={() => handleadd(productId)} className="btn btn-primary rounded-2xl  ">Add To cart</button>
                             </div>
                         </div>
 

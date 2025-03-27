@@ -4,6 +4,8 @@ import { Link } from 'react-router';
 const Gaget = ({ gagetlist }) => {
     const { product_image, product_title, price, productId } = gagetlist
 
+
+
     return (
         <div>
             {/* <h2>This from gaget</h2> */}

@@ -50,7 +50,8 @@ const router = createBrowserRouter([
       },
       {
         path: '/Dashbord',
-        element: <Dashbord></Dashbord>
+        element: <Dashbord></Dashbord>,
+        loader: () => fetch('/Data.json')
       }
 
     ]
