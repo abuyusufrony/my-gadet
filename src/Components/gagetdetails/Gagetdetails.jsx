@@ -75,8 +75,8 @@ const Gagetdetails = () => {
                     </div>
 
                 </div>
-                <div className='h-[330px] bg-gray-100 -mt-50'>
-                    <h2>gg</h2>
+                <div className='h-[380px] bg-gray-100 -mt-76 mb-3.5'>
+                    {/* <h2>gg</h2> */}
 
                 </div>
             </div>

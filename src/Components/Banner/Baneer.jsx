@@ -5,7 +5,7 @@ const Baneer = () => {
     return (
         <div className=''>
             <div className='w-full h-[640px] bg-[#9538E2] rounded-lg' >
-                <h2 className='text-5xl'>this section are from banner</h2>
+                {/* <h2 className='text-5xl'>this section are from banner</h2> */}
                 <div cla>
                     <h2 className='text-6xl text-white px-15 text-center  font-bold mt-9 '>
                         Upgrade Your Tech Accessorize with <br /> Gadget Heaven Accessories

@@ -76,7 +76,7 @@ const Gagets = () => {
 
     return (
         <div>
-            <h2>This section from gadgets {filteredItems.length}</h2>
+            {/* <h2>This section from gadgets {filteredItems.length}</h2> */}
             <div className='main'>
                 <div>
                     <h2 className='text-4xl font-bold text-center'>Explore Cutting-Edge Gadgets</h2>
