@@ -65,5 +65,5 @@ Gadget Heaven is an e-commerce web application where users can explore and purch
 - **Dynamic Product Details**: Each product has a detailed page using `useParams` and `useLoaderData`.
 
 ## Live Site Link
-[Click Here to Visit the Site](#)  
-*(Replace `#` with your actual deployment link)*
+[Click Here to Visit the Site](https://phobic-thought.surge.sh/)  
+

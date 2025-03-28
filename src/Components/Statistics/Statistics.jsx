@@ -13,7 +13,10 @@ const Statistics = () => {
 
 
             </div>
+
+            <h2>This page are under development</h2>
         </div>
+
     );
 };
 
